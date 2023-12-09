@@ -1,0 +1,18 @@
+.question{
+    margin-left: 1px;
+}
+.que{
+    margin-top: -50px;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.radio{
+    margin-left: -650px;
+}
+.answer{
+    color: white;
+    margin-left: -49%;
+   
+}

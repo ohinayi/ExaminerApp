@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./component/Navbar";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from './component/Home';
+import About from './component/About';
+import Contact from './component/Contact';
+import Student from "./component/Student";
+import {AdminSign} from "./component/AdminSign";
+import {Admin} from "./component/admin";
+import "./app.css";
+import DeletePage from "./component/deletePage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+  function App() {
+    return (
+      <div className="App">
+        <Router>
+         <Navbar />
+            <Routes>
+                <Route exact path="/" Component={Home}/>
+                <Route exact path="/contact" Component={Contact}/>
+                <Route exact path="/about" Component={About}/>
+                <Route exact path="/student" Component={Student}/>
+                <Route exact path="/adminSign" Component={AdminSign}/>
+                <Route exact path="/admin" Component={Admin}/>
+                <Route exact path="/deletePage" Component={DeletePage}/>
+           </Routes>      
+       </Router>
+        
+      
+            
+        
+       
+       </div>
+        
+      
+      
+    )
+  }
+  export default App

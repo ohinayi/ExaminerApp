@@ -1,0 +1,26 @@
+.cardBox{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 2.5rem;
+}
+#box{
+    background: black;
+    padding: 10px;
+    color: white;
+    font-family: cursive;
+    margin: 20px;
+    border-radius: 20px;
+    margin-top: -30px;
+    transition: all 1s ease;
+}
+h1{
+    font-family: cursive;
+}
+h5{
+    font-weight: 1px;
+    font-family:sans-serif;
+}
+#box:hover{
+    transform: scale(1.1);
+}

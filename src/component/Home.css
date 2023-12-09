@@ -1,0 +1,32 @@
+#main{
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    margin: 10px 35%;
+    
+}
+#two{
+border: 1px solid whitesmoke;
+align-content: center;
+display: grid;
+border-radius: 20px;
+padding: 10px 20px;
+overflow: hidden;
+padding: 20px;
+
+}
+h2{
+    margin-left: 35%;
+    font-family: cursive;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px;
+    transition: all 1s ease-in-out;
+}
+.button:hover{
+    transform: scale(1.05);
+}

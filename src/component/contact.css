@@ -1,0 +1,27 @@
+#container{
+    display: flex;
+    padding: 20px;
+    margin-top: -50px;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+#smallContainers{
+    display: grid;
+    align-content: center;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    align-items: center;
+    background: black;
+    color: antiquewhite;
+    font-family: cursive;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+i{
+    padding-bottom: 50px;
+}
+#smallContainers:hover{
+    transform: scale(1.05);
+}

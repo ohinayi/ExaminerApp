@@ -1,0 +1,38 @@
+.ui.teal.inverted.segment{
+    font-family:cursive;
+    transition: all 1.5s ease;
+}
+.ui.teal.inverted.segment:hover{
+    transform: scale(1.1);
+}
+#links{
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.main{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:3px 2px;
+    align-self: center;
+    align-content: baseline;
+    margin-bottom: 10%;
+    overflow: hidden;
+    display: flex;
+}
+#links a{
+    margin-left: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-size: large;
+    font-family: cursive;
+    align-items: center;
+    font-weight: 20px;
+    
+}
+#links a:hover{
+    color: rgb(179, 179, 180);
+}
+ 
